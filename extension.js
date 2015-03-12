@@ -53,11 +53,11 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
-        language: "english",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+        botName: "IrraHOTD",
+        language: "portuguese",
+        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/pt.json",
         startupCap: 1, // 1-200
-        startupVolume: 0, // 0-100
+        startupVolume: 100, // 0-100
         startupEmoji: false, // true or false
         maximumAfk: 120,
         afkRemoval: true,
@@ -89,7 +89,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 5,
-        motd: "Temporary Message of the Day",
+        motd: "Divirtam-se aqui na nossa sala de música!",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
